@@ -14,6 +14,13 @@ vim.pack.add { Gh "mason-org/mason.nvim" }
 
 require("mason").setup {}
 
+
+-- easy-dotnet
+vim.pack.add { Gh "GustavEikaas/easy-dotnet.nvim" }
+require("easy-dotnet").setup {}
+
+
+
 vim.pack.add { Gh "neovim/nvim-lspconfig" }
 vim.api.nvim_create_autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup("lsp-attach", { clear = true }),

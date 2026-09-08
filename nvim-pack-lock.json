@@ -16,6 +16,10 @@
       "rev": "dca1a190aa85f9065979ef35802fb77131911106",
       "src": "https://github.com/stevearc/conform.nvim"
     },
+    "easy-dotnet.nvim": {
+      "rev": "640612c3d1f691ed47074ae0b262670057b18445",
+      "src": "https://github.com/GustavEikaas/easy-dotnet.nvim"
+    },
     "fidget.nvim": {
       "rev": "889e2e96edef4e144965571d46f7a77bcc4d0ddf",
       "src": "https://github.com/j-hui/fidget.nvim"
